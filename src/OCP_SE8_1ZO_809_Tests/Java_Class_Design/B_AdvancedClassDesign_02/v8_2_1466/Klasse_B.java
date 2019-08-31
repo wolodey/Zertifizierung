@@ -15,6 +15,7 @@ public class Klasse_B extends Klasse_A {
             super('d');
             System.out.println(Klasse_B.this.c);
             System.out.println(Klasse_C.this.c);
+            System.out.println(super.c);
         }
     }
 }

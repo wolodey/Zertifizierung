@@ -8,7 +8,7 @@ public class WidgetUser {
         Widget w = new GoodWidget();
         ((Widget) w).doWidgetStuff();
 
-        System.out.println(w.data);
-        System.out.println(((GoodWidget)w).data);
+     //   System.out.println(w.data);
+        //   System.out.println(((GoodWidget)w).data);
     }
 }
